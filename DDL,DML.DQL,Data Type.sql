@@ -26,10 +26,15 @@ create table amazon_orders
 -- ======================
 
 -- INSERT: To add a new row
-insert into amazon_orders values(1,'2023-07-25',3999.9,'babybee', 'ankitbansal6','UPI');  
-
--- Incorrect (Because order_id should be a number, not text):
--- insert into amazon_orders values('ank','2023-07-25',5000,'babybee', 'rahulbansal','Credit');  
+insert into amazon_orders values
+insert into amazon_orders
+ values
+    ('ank',
+     '2023-07-25',
+      5000,
+     'babybee', 
+     'rahulbansal',
+     'Credit');  
 
 -- UPDATE: To modify existing row(s) 
 update amazon_orders set payment_mode='Credit'
