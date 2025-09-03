@@ -26,7 +26,6 @@ create table amazon_orders
 -- ======================
 
 -- INSERT: To add a new row
-insert into amazon_orders values
 insert into amazon_orders
  values
     ('ank',
